@@ -1,6 +1,6 @@
 ---
-name: "[Week]"
-about: GO-SOPT-iOS Assignment Issue Template
+name: GO-SOPT-iOS Seminar Assignment Issue Template
+about: GO-SOPT-iOS Seminar Assignment Issue Template
 title: ''
 labels: ''
 assignees: ''
