@@ -11,9 +11,9 @@ class BaseViewController: UIViewController {
     
     // MARK: - Properties
     
-    lazy private(set) var className: String = {
-      return type(of: self).description().components(separatedBy: ".").last ?? ""
-    }()
+//    lazy private(set) var className: String = {
+//      return type(of: self).description().components(separatedBy: ".").last ?? ""
+//    }()
     
     // MARK: - Initializing
     
@@ -27,7 +27,7 @@ class BaseViewController: UIViewController {
     }
     
     deinit {
-        print("DEINIT: \(className)")
+//        print("DEINIT: \(className)")
     }
 
     // MARK: - Life Cycle
@@ -52,7 +52,7 @@ class BaseViewController: UIViewController {
     /// Attributes (속성) 설정 메서드
     func setStyle() {
         
-        view.backgroundColor = .white
+        view.backgroundColor = Color.tvingBlack
     }
     
     /// Hierarchy, Constraints (계층 및 제약조건) 설정 메서드
