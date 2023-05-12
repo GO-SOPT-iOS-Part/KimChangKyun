@@ -42,9 +42,10 @@
 		DF1841852A06282E001A466A /* SignUpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1841842A06282E001A466A /* SignUpService.swift */; };
 		DF1841872A0628F2001A466A /* ViewController_FourthSeminar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1841862A0628F2001A466A /* ViewController_FourthSeminar.swift */; };
 		DF1841892A062969001A466A /* SignUpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1841882A062969001A466A /* SignUpResponse.swift */; };
-		DF18418B2A0DF337001A466A /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF18418A2A0DF336001A466A /* DataModel.swift */; };
+		DF18418B2A0DF337001A466A /* Weathers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF18418A2A0DF336001A466A /* Weathers.swift */; };
 		DF18418D2A0DF4F8001A466A /* CurrentWeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF18418C2A0DF4F8001A466A /* CurrentWeatherService.swift */; };
 		DF18418F2A0E00AA001A466A /* ViewController_WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF18418E2A0E00AA001A466A /* ViewController_WeatherAPI.swift */; };
+		DF1841912A0E668B001A466A /* MovieInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1841902A0E668B001A466A /* MovieInformation.swift */; };
 		DF93B64029E133E400A1CBD0 /* FirstViewController_DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93B63F29E133E400A1CBD0 /* FirstViewController_DelegatePattern.swift */; };
 		DF93B64229E1344F00A1CBD0 /* SecondViewController_DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93B64129E1344F00A1CBD0 /* SecondViewController_DelegatePattern.swift */; };
 		DF93B64429E1386600A1CBD0 /* FirstViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93B64329E1386600A1CBD0 /* FirstViewController_Closure.swift */; };
@@ -99,9 +100,10 @@
 		DF1841842A06282E001A466A /* SignUpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpService.swift; sourceTree = "<group>"; };
 		DF1841862A0628F2001A466A /* ViewController_FourthSeminar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_FourthSeminar.swift; sourceTree = "<group>"; };
 		DF1841882A062969001A466A /* SignUpResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpResponse.swift; sourceTree = "<group>"; };
-		DF18418A2A0DF336001A466A /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		DF18418A2A0DF336001A466A /* Weathers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weathers.swift; sourceTree = "<group>"; };
 		DF18418C2A0DF4F8001A466A /* CurrentWeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherService.swift; sourceTree = "<group>"; };
 		DF18418E2A0E00AA001A466A /* ViewController_WeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_WeatherAPI.swift; sourceTree = "<group>"; };
+		DF1841902A0E668B001A466A /* MovieInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInformation.swift; sourceTree = "<group>"; };
 		DF93B63F29E133E400A1CBD0 /* FirstViewController_DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController_DelegatePattern.swift; sourceTree = "<group>"; };
 		DF93B64129E1344F00A1CBD0 /* SecondViewController_DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController_DelegatePattern.swift; sourceTree = "<group>"; };
 		DF93B64329E1386600A1CBD0 /* FirstViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController_Closure.swift; sourceTree = "<group>"; };
@@ -323,9 +325,10 @@
 				DF1841842A06282E001A466A /* SignUpService.swift */,
 				DF1841862A0628F2001A466A /* ViewController_FourthSeminar.swift */,
 				DF1841882A062969001A466A /* SignUpResponse.swift */,
-				DF18418A2A0DF336001A466A /* DataModel.swift */,
+				DF18418A2A0DF336001A466A /* Weathers.swift */,
 				DF18418C2A0DF4F8001A466A /* CurrentWeatherService.swift */,
 				DF18418E2A0E00AA001A466A /* ViewController_WeatherAPI.swift */,
+				DF1841902A0E668B001A466A /* MovieInformation.swift */,
 			);
 			path = "Fourth-Seminar";
 			sourceTree = "<group>";
@@ -473,6 +476,7 @@
 				DF18414A29FA6BFA001A466A /* Image.swift in Sources */,
 				DF18412D29F3B744001A466A /* CarrotTableViewCell.swift in Sources */,
 				DF1841592A0422D3001A466A /* BaseView.swift in Sources */,
+				DF1841912A0E668B001A466A /* MovieInformation.swift in Sources */,
 				DF1841602A04E1AA001A466A /* MyPage.swift in Sources */,
 				DF18412929F3AD9F001A466A /* CommonView.swift in Sources */,
 				DF18413029F3B885001A466A /* Carrot.swift in Sources */,
@@ -503,7 +507,7 @@
 				DF1841742A052C83001A466A /* MyProfileView.swift in Sources */,
 				DF18416E2A052235001A466A /* NSObject+.swift in Sources */,
 				DF18415D2A043575001A466A /* MyPageViewController.swift in Sources */,
-				DF18418B2A0DF337001A466A /* DataModel.swift in Sources */,
+				DF18418B2A0DF337001A466A /* Weathers.swift in Sources */,
 				DFA4A02F29D8105400BFB46A /* SecondViewController_1st_Seminar.swift in Sources */,
 				DF1841892A062969001A466A /* SignUpResponse.swift in Sources */,
 				DF18413529F3BCC3001A466A /* UIImage+.swift in Sources */,
@@ -669,6 +673,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TMDB_URL = "https://api.themoviedb.org/3/search/movie?api_key=182d505d38c0dff20137f9a1ffc44888&query=";
 				WEATHER_API = 2e4e7c115a23a0ec023cd170849b696a;
 				WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?";
 			};
@@ -699,6 +704,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TMDB_URL = "https://api.themoviedb.org/3/search/movie?api_key=182d505d38c0dff20137f9a1ffc44888&query=";
 				WEATHER_API = 2e4e7c115a23a0ec023cd170849b696a;
 				WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?";
 			};

@@ -13,6 +13,7 @@ enum Config {
             static let baseURL = "BASE_URL"
             static let weatherURL = "WEATHER_URL"
             static let weatherAPI = "WEATHER_API"
+            static let tmdbURL = "TMDB_URL"
         }
     }
     
@@ -46,6 +47,14 @@ extension Config {
     static let weatherAPI: String = {
         guard let key = Config.infoDictionary[Keys.Plist.weatherAPI] as? String else {
             fatalError("Weather API is not set in plist for this configuration.")
+        }
+        
+        return key
+    }()
+    
+    static let tmdbURL: String = {
+        guard let key = Config.infoDictionary[Keys.Plist.tmdbURL] as? String else {
+            fatalError("TMDB URL is not set in plist for this configuration.")
         }
         
         return key

@@ -1,5 +1,5 @@
 //
-//  DataModel.swift
+//  Weathers.swift
 //  32th-Sopt-Seminar
 //
 //  Created by kyun on 2023/05/12.
