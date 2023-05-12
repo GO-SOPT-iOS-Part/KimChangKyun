@@ -30,6 +30,7 @@ class MovieTableViewCell: UITableViewCell {
     }
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
         setLayout()
@@ -40,15 +41,18 @@ class MovieTableViewCell: UITableViewCell {
     }
     
     func movieDataBind(movieDataModel: MovieDataModel) {
+        
         if let imageURL = movieDataModel.posterPath {
             posterImg.getImageFromURL(imageURL)
         }
+        
         titleLabel.text = movieDataModel.title
         releaseDateLabel.text = movieDataModel.realizeDate
         movieRatingLabel.text = "\(movieDataModel.movieRating)"
     }
     
     func setLayout() {
+        
         addSubviews(posterImg, titleLabel, releaseDateLabel, movieRatingLabel)
         
         posterImg.snp.makeConstraints {
