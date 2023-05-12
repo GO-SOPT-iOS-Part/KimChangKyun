@@ -11,7 +11,7 @@ public enum Image {
     
     // MARK: - Authentication
     
-    public static let leftAngleBracketIcon = UIImage(named: "leftAngleBracket")!
+    public static let leftChevronIcon = UIImage(named: "leftChevron")!
     public static let eyeSlashIcon = UIImage(named: "eyeSlash")!
     public static let eyeIcon = UIImage(named: "eye")!
     public static let xCircleIcon = UIImage(named: "xCircle")!
@@ -34,7 +34,6 @@ public enum Image {
     public static let profileImg = UIImage(named: "profile")!
     public static let myPassImg = UIImage(named: "myPass")!
     public static let tvingCashImg = UIImage(named: "tvingCash")!
-    public static let tvNLogo = UIImage(named: "tvNLogo")!
-    public static let jtbcLogo = UIImage(named: "jtbcLogo")!
-    public static let rightAngleBracketIcon = UIImage(named: "rightAngleBracket")!
+    public static let tvnJtbcLogo = UIImage(named: "tvnJtbcLogo")!
+    public static let rightChevronIcon = UIImage(named: "rightChevron")!
 }
