@@ -1,5 +1,5 @@
 //
-//  CurrentWeatherService.swift
+//  MovieInformationService.swift
 //  32th-Sopt-Seminar
 //
 //  Created by kyun on 2023/05/12.
@@ -9,20 +9,22 @@ import Foundation
 
 import Alamofire
 
-final class CurrentWeatherService {
+final class MovieInformationService {
     
-    static let get = CurrentWeatherService()
+    static let get = MovieInformationService()
     
     private init() {}
     
-    func loadWeather(city: String,
-                     completion: @escaping (NetworkResult<Any>) -> Void) {
+    func loadMovieInformation(title: String,
+                              completion: @escaping (NetworkResult<Any>) -> Void) {
         
-        let url = Config.weatherURL + "q=\(city)&appid=" + Config.weatherAPI
+        let url = Config.tmdbURL + title
+        
+        print(url)
         
         let header: HTTPHeaders = ["Content-Type" : "application/json"]
 
-        let dataRequest = AF.request(url, method: .get, headers: header)
+        let dataRequest = AF.request(url, method: .get, encoding: URLEncoding.default, headers: header)
         
         dataRequest.responseData { response in
             switch response.result {
@@ -40,7 +42,7 @@ final class CurrentWeatherService {
     private func judgeStatus(by statusCode: Int, _ data: Data) -> NetworkResult<Any> {
         
         switch statusCode {
-        case 200:
+        case 200...299:
             return isValidData(data: data)
         case 400, 409:
             return isValidData(data: data)
@@ -55,7 +57,7 @@ final class CurrentWeatherService {
         
         let decoder = JSONDecoder()
         
-        guard let decodedData = try? decoder.decode(Weathers.self, from: data) else { return .pathErr }
+        guard let decodedData = try? decoder.decode(MovieInformation.self, from: data) else { return .pathErr }
         
         return .success(decodedData as Any)
     }

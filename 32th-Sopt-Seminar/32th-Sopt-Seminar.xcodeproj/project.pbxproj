@@ -46,6 +46,11 @@
 		DF18418D2A0DF4F8001A466A /* CurrentWeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF18418C2A0DF4F8001A466A /* CurrentWeatherService.swift */; };
 		DF18418F2A0E00AA001A466A /* ViewController_WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF18418E2A0E00AA001A466A /* ViewController_WeatherAPI.swift */; };
 		DF1841912A0E668B001A466A /* MovieInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1841902A0E668B001A466A /* MovieInformation.swift */; };
+		DF1841932A0E6C08001A466A /* MovieInformationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1841922A0E6C08001A466A /* MovieInformationService.swift */; };
+		DF1841952A0E6F30001A466A /* ViewController_TMDBAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1841942A0E6F30001A466A /* ViewController_TMDBAPI.swift */; };
+		DF1841972A0E7A17001A466A /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1841962A0E7A17001A466A /* MovieTableViewCell.swift */; };
+		DF1841992A0E8026001A466A /* MovieDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1841982A0E8026001A466A /* MovieDataModel.swift */; };
+		DF18419B2A0E831A001A466A /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF18419A2A0E831A001A466A /* ImageCacheManager.swift */; };
 		DF93B64029E133E400A1CBD0 /* FirstViewController_DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93B63F29E133E400A1CBD0 /* FirstViewController_DelegatePattern.swift */; };
 		DF93B64229E1344F00A1CBD0 /* SecondViewController_DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93B64129E1344F00A1CBD0 /* SecondViewController_DelegatePattern.swift */; };
 		DF93B64429E1386600A1CBD0 /* FirstViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93B64329E1386600A1CBD0 /* FirstViewController_Closure.swift */; };
@@ -104,6 +109,11 @@
 		DF18418C2A0DF4F8001A466A /* CurrentWeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherService.swift; sourceTree = "<group>"; };
 		DF18418E2A0E00AA001A466A /* ViewController_WeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_WeatherAPI.swift; sourceTree = "<group>"; };
 		DF1841902A0E668B001A466A /* MovieInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInformation.swift; sourceTree = "<group>"; };
+		DF1841922A0E6C08001A466A /* MovieInformationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInformationService.swift; sourceTree = "<group>"; };
+		DF1841942A0E6F30001A466A /* ViewController_TMDBAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_TMDBAPI.swift; sourceTree = "<group>"; };
+		DF1841962A0E7A17001A466A /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		DF1841982A0E8026001A466A /* MovieDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataModel.swift; sourceTree = "<group>"; };
+		DF18419A2A0E831A001A466A /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
 		DF93B63F29E133E400A1CBD0 /* FirstViewController_DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController_DelegatePattern.swift; sourceTree = "<group>"; };
 		DF93B64129E1344F00A1CBD0 /* SecondViewController_DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController_DelegatePattern.swift; sourceTree = "<group>"; };
 		DF93B64329E1386600A1CBD0 /* FirstViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController_Closure.swift; sourceTree = "<group>"; };
@@ -329,6 +339,11 @@
 				DF18418C2A0DF4F8001A466A /* CurrentWeatherService.swift */,
 				DF18418E2A0E00AA001A466A /* ViewController_WeatherAPI.swift */,
 				DF1841902A0E668B001A466A /* MovieInformation.swift */,
+				DF1841922A0E6C08001A466A /* MovieInformationService.swift */,
+				DF1841942A0E6F30001A466A /* ViewController_TMDBAPI.swift */,
+				DF1841962A0E7A17001A466A /* MovieTableViewCell.swift */,
+				DF1841982A0E8026001A466A /* MovieDataModel.swift */,
+				DF18419A2A0E831A001A466A /* ImageCacheManager.swift */,
 			);
 			path = "Fourth-Seminar";
 			sourceTree = "<group>";
@@ -479,6 +494,7 @@
 				DF1841912A0E668B001A466A /* MovieInformation.swift in Sources */,
 				DF1841602A04E1AA001A466A /* MyPage.swift in Sources */,
 				DF18412929F3AD9F001A466A /* CommonView.swift in Sources */,
+				DF1841992A0E8026001A466A /* MovieDataModel.swift in Sources */,
 				DF18413029F3B885001A466A /* Carrot.swift in Sources */,
 				DF1841722A052BF9001A466A /* MyPageHeaderView.swift in Sources */,
 				DF1841792A052ED4001A466A /* BuyPassView.swift in Sources */,
@@ -486,17 +502,21 @@
 				DF18412529F3ABC6001A466A /* FirstViewController_ThirdSeminar.swift in Sources */,
 				DF93B64629E1389600A1CBD0 /* SecondViewController_Closure.swift in Sources */,
 				DFA4A01D29D8095100BFB46A /* ViewController.swift in Sources */,
+				DF1841972A0E7A17001A466A /* MovieTableViewCell.swift in Sources */,
 				DF93B64029E133E400A1CBD0 /* FirstViewController_DelegatePattern.swift in Sources */,
 				DF93B65629E152E500A1CBD0 /* FirstViewController_Practice1.swift in Sources */,
 				DF1841762A052D37001A466A /* MyPassView.swift in Sources */,
 				DF1841672A04FCFE001A466A /* UINavigationItem+.swift in Sources */,
 				DF18416C2A052195001A466A /* UITableView+.swift in Sources */,
 				DF18418F2A0E00AA001A466A /* ViewController_WeatherAPI.swift in Sources */,
+				DF1841932A0E6C08001A466A /* MovieInformationService.swift in Sources */,
 				DF1841872A0628F2001A466A /* ViewController_FourthSeminar.swift in Sources */,
 				DF1841572A04220B001A466A /* BaseViewController.swift in Sources */,
+				DF1841952A0E6F30001A466A /* ViewController_TMDBAPI.swift in Sources */,
 				DF18413729F3C86C001A466A /* UIView+.swift in Sources */,
 				DFA4A01929D8095100BFB46A /* AppDelegate.swift in Sources */,
 				DFA4A02D29D80BAA00BFB46A /* FirstViewController_1st_Seminar.swift in Sources */,
+				DF18419B2A0E831A001A466A /* ImageCacheManager.swift in Sources */,
 				DF18418D2A0DF4F8001A466A /* CurrentWeatherService.swift in Sources */,
 				DF18414629FA67CB001A466A /* Color.swift in Sources */,
 				DF18415B2A042E5A001A466A /* Int+.swift in Sources */,
