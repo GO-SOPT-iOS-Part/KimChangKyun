@@ -20,8 +20,6 @@ final class MovieInformationService {
         
         let url = Config.tmdbURL + title
         
-        print(url)
-        
         let header: HTTPHeaders = ["Content-Type" : "application/json"]
         
         let dataRequest = AF.request(url, method: .get, encoding: URLEncoding.default, headers: header)
