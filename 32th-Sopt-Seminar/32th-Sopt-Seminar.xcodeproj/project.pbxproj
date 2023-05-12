@@ -36,6 +36,15 @@
 		DF1841762A052D37001A466A /* MyPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1841752A052D37001A466A /* MyPassView.swift */; };
 		DF1841792A052ED4001A466A /* BuyPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1841782A052ED4001A466A /* BuyPassView.swift */; };
 		DF18417B2A052FFD001A466A /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF18417A2A052FFD001A466A /* UILabel+.swift */; };
+		DF18417E2A062437001A466A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DF18417D2A062437001A466A /* Alamofire */; };
+		DF1841812A062548001A466A /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1841802A062548001A466A /* Config.swift */; };
+		DF1841832A06257B001A466A /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1841822A06257B001A466A /* NetworkResult.swift */; };
+		DF1841852A06282E001A466A /* SignUpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1841842A06282E001A466A /* SignUpService.swift */; };
+		DF1841872A0628F2001A466A /* ViewController_FourthSeminar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1841862A0628F2001A466A /* ViewController_FourthSeminar.swift */; };
+		DF1841892A062969001A466A /* SignUpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1841882A062969001A466A /* SignUpResponse.swift */; };
+		DF18418B2A0DF337001A466A /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF18418A2A0DF336001A466A /* DataModel.swift */; };
+		DF18418D2A0DF4F8001A466A /* CurrentWeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF18418C2A0DF4F8001A466A /* CurrentWeatherService.swift */; };
+		DF18418F2A0E00AA001A466A /* ViewController_WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF18418E2A0E00AA001A466A /* ViewController_WeatherAPI.swift */; };
 		DF93B64029E133E400A1CBD0 /* FirstViewController_DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93B63F29E133E400A1CBD0 /* FirstViewController_DelegatePattern.swift */; };
 		DF93B64229E1344F00A1CBD0 /* SecondViewController_DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93B64129E1344F00A1CBD0 /* SecondViewController_DelegatePattern.swift */; };
 		DF93B64429E1386600A1CBD0 /* FirstViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93B64329E1386600A1CBD0 /* FirstViewController_Closure.swift */; };
@@ -85,6 +94,14 @@
 		DF1841752A052D37001A466A /* MyPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPassView.swift; sourceTree = "<group>"; };
 		DF1841782A052ED4001A466A /* BuyPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyPassView.swift; sourceTree = "<group>"; };
 		DF18417A2A052FFD001A466A /* UILabel+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
+		DF1841802A062548001A466A /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		DF1841822A06257B001A466A /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		DF1841842A06282E001A466A /* SignUpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpService.swift; sourceTree = "<group>"; };
+		DF1841862A0628F2001A466A /* ViewController_FourthSeminar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_FourthSeminar.swift; sourceTree = "<group>"; };
+		DF1841882A062969001A466A /* SignUpResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpResponse.swift; sourceTree = "<group>"; };
+		DF18418A2A0DF336001A466A /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		DF18418C2A0DF4F8001A466A /* CurrentWeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherService.swift; sourceTree = "<group>"; };
+		DF18418E2A0E00AA001A466A /* ViewController_WeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_WeatherAPI.swift; sourceTree = "<group>"; };
 		DF93B63F29E133E400A1CBD0 /* FirstViewController_DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController_DelegatePattern.swift; sourceTree = "<group>"; };
 		DF93B64129E1344F00A1CBD0 /* SecondViewController_DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController_DelegatePattern.swift; sourceTree = "<group>"; };
 		DF93B64329E1386600A1CBD0 /* FirstViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController_Closure.swift; sourceTree = "<group>"; };
@@ -107,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF18417E2A062437001A466A /* Alamofire in Frameworks */,
 				DF93B64B29E13ED200A1CBD0 /* SnapKit in Frameworks */,
 				DF93B64E29E141ED00A1CBD0 /* Then in Frameworks */,
 			);
@@ -297,6 +315,21 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		DF18417F2A062530001A466A /* Fourth-Seminar */ = {
+			isa = PBXGroup;
+			children = (
+				DF1841802A062548001A466A /* Config.swift */,
+				DF1841822A06257B001A466A /* NetworkResult.swift */,
+				DF1841842A06282E001A466A /* SignUpService.swift */,
+				DF1841862A0628F2001A466A /* ViewController_FourthSeminar.swift */,
+				DF1841882A062969001A466A /* SignUpResponse.swift */,
+				DF18418A2A0DF336001A466A /* DataModel.swift */,
+				DF18418C2A0DF4F8001A466A /* CurrentWeatherService.swift */,
+				DF18418E2A0E00AA001A466A /* ViewController_WeatherAPI.swift */,
+			);
+			path = "Fourth-Seminar";
+			sourceTree = "<group>";
+		};
 		DF93B64729E13B7200A1CBD0 /* First-Seminar */ = {
 			isa = PBXGroup;
 			children = (
@@ -346,6 +379,7 @@
 				DF93B64729E13B7200A1CBD0 /* First-Seminar */,
 				DF93B64829E13B9900A1CBD0 /* Second-Seminar */,
 				DF18411D29F3A942001A466A /* Third-Seminar */,
+				DF18417F2A062530001A466A /* Fourth-Seminar */,
 			);
 			path = "32th-Sopt-Seminar";
 			sourceTree = "<group>";
@@ -369,6 +403,7 @@
 			packageProductDependencies = (
 				DF93B64A29E13ED200A1CBD0 /* SnapKit */,
 				DF93B64D29E141ED00A1CBD0 /* Then */,
+				DF18417D2A062437001A466A /* Alamofire */,
 			);
 			productName = "32th-Sopt-First-Seminar";
 			productReference = DFA4A01529D8095100BFB46A /* 32th-Sopt-Seminar.app */;
@@ -401,6 +436,7 @@
 			packageReferences = (
 				DF93B64929E13ED200A1CBD0 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				DF93B64C29E141ED00A1CBD0 /* XCRemoteSwiftPackageReference "Then" */,
+				DF18417C2A062437001A466A /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = DFA4A01629D8095100BFB46A /* Products */;
 			projectDirPath = "";
@@ -451,10 +487,13 @@
 				DF1841762A052D37001A466A /* MyPassView.swift in Sources */,
 				DF1841672A04FCFE001A466A /* UINavigationItem+.swift in Sources */,
 				DF18416C2A052195001A466A /* UITableView+.swift in Sources */,
+				DF18418F2A0E00AA001A466A /* ViewController_WeatherAPI.swift in Sources */,
+				DF1841872A0628F2001A466A /* ViewController_FourthSeminar.swift in Sources */,
 				DF1841572A04220B001A466A /* BaseViewController.swift in Sources */,
 				DF18413729F3C86C001A466A /* UIView+.swift in Sources */,
 				DFA4A01929D8095100BFB46A /* AppDelegate.swift in Sources */,
 				DFA4A02D29D80BAA00BFB46A /* FirstViewController_1st_Seminar.swift in Sources */,
+				DF18418D2A0DF4F8001A466A /* CurrentWeatherService.swift in Sources */,
 				DF18414629FA67CB001A466A /* Color.swift in Sources */,
 				DF18415B2A042E5A001A466A /* Int+.swift in Sources */,
 				DF93B64229E1344F00A1CBD0 /* SecondViewController_DelegatePattern.swift in Sources */,
@@ -464,9 +503,14 @@
 				DF1841742A052C83001A466A /* MyProfileView.swift in Sources */,
 				DF18416E2A052235001A466A /* NSObject+.swift in Sources */,
 				DF18415D2A043575001A466A /* MyPageViewController.swift in Sources */,
+				DF18418B2A0DF337001A466A /* DataModel.swift in Sources */,
 				DFA4A02F29D8105400BFB46A /* SecondViewController_1st_Seminar.swift in Sources */,
+				DF1841892A062969001A466A /* SignUpResponse.swift in Sources */,
 				DF18413529F3BCC3001A466A /* UIImage+.swift in Sources */,
 				DFA4A01B29D8095100BFB46A /* SceneDelegate.swift in Sources */,
+				DF1841852A06282E001A466A /* SignUpService.swift in Sources */,
+				DF1841812A062548001A466A /* Config.swift in Sources */,
+				DF1841832A06257B001A466A /* NetworkResult.swift in Sources */,
 				DF18412B29F3B549001A466A /* CarrotViewController.swift in Sources */,
 				DF1841652A04ED3D001A466A /* MyPageTableViewCell.swift in Sources */,
 			);
@@ -605,6 +649,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "http://54.180.123.11";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8MTU4Q38X7;
@@ -624,6 +669,8 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WEATHER_API = 2e4e7c115a23a0ec023cd170849b696a;
+				WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?";
 			};
 			name = Debug;
 		};
@@ -632,6 +679,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "http://54.180.123.11";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8MTU4Q38X7;
@@ -651,6 +699,8 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WEATHER_API = 2e4e7c115a23a0ec023cd170849b696a;
+				WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?";
 			};
 			name = Release;
 		};
@@ -678,6 +728,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		DF18417C2A062437001A466A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 		DF93B64929E13ED200A1CBD0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -697,6 +755,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		DF18417D2A062437001A466A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF18417C2A062437001A466A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
 		DF93B64A29E13ED200A1CBD0 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DF93B64929E13ED200A1CBD0 /* XCRemoteSwiftPackageReference "SnapKit" */;
