@@ -35,7 +35,10 @@ class ViewController_TMDBAPI: UIViewController {
             case .success(let data):
                 guard let data = data as? MovieInformation else { return }
                 self.movieArray = data.results.map { movie in
-                    MovieDataModel(posterPath: movie.posterPath, title: movie.title, realizeDate: movie.releaseDate, movieRating: movie.voteAverage)
+                    MovieDataModel(posterPath: movie.posterPath,
+                                   title: movie.title,
+                                   realizeDate: movie.releaseDate,
+                                   movieRating: movie.voteAverage)
                 }
                 self.movieTableView.reloadData()
                 dump(data)

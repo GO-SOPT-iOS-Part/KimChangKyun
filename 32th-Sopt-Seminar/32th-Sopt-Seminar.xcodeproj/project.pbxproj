@@ -51,6 +51,8 @@
 		DF1841972A0E7A17001A466A /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1841962A0E7A17001A466A /* MovieTableViewCell.swift */; };
 		DF1841992A0E8026001A466A /* MovieDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1841982A0E8026001A466A /* MovieDataModel.swift */; };
 		DF18419B2A0E831A001A466A /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF18419A2A0E831A001A466A /* ImageCacheManager.swift */; };
+		DF4702692A21D8D100A71214 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = DF4702682A21D8D100A71214 /* Realm */; };
+		DF47026B2A21D8D100A71214 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DF47026A2A21D8D100A71214 /* RealmSwift */; };
 		DF93B64029E133E400A1CBD0 /* FirstViewController_DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93B63F29E133E400A1CBD0 /* FirstViewController_DelegatePattern.swift */; };
 		DF93B64229E1344F00A1CBD0 /* SecondViewController_DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93B64129E1344F00A1CBD0 /* SecondViewController_DelegatePattern.swift */; };
 		DF93B64429E1386600A1CBD0 /* FirstViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93B64329E1386600A1CBD0 /* FirstViewController_Closure.swift */; };
@@ -138,6 +140,8 @@
 			files = (
 				DF18417E2A062437001A466A /* Alamofire in Frameworks */,
 				DF93B64B29E13ED200A1CBD0 /* SnapKit in Frameworks */,
+				DF4702692A21D8D100A71214 /* Realm in Frameworks */,
+				DF47026B2A21D8D100A71214 /* RealmSwift in Frameworks */,
 				DF93B64E29E141ED00A1CBD0 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +426,8 @@
 				DF93B64A29E13ED200A1CBD0 /* SnapKit */,
 				DF93B64D29E141ED00A1CBD0 /* Then */,
 				DF18417D2A062437001A466A /* Alamofire */,
+				DF4702682A21D8D100A71214 /* Realm */,
+				DF47026A2A21D8D100A71214 /* RealmSwift */,
 			);
 			productName = "32th-Sopt-First-Seminar";
 			productReference = DFA4A01529D8095100BFB46A /* 32th-Sopt-Seminar.app */;
@@ -455,6 +461,7 @@
 				DF93B64929E13ED200A1CBD0 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				DF93B64C29E141ED00A1CBD0 /* XCRemoteSwiftPackageReference "Then" */,
 				DF18417C2A062437001A466A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				DF4702672A21D8D000A71214 /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = DFA4A01629D8095100BFB46A /* Products */;
 			projectDirPath = "";
@@ -762,6 +769,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		DF4702672A21D8D000A71214 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		DF93B64929E13ED200A1CBD0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -785,6 +800,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DF18417C2A062437001A466A /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		DF4702682A21D8D100A71214 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF4702672A21D8D000A71214 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		DF47026A2A21D8D100A71214 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF4702672A21D8D000A71214 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
 		};
 		DF93B64A29E13ED200A1CBD0 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;

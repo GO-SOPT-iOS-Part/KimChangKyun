@@ -18,7 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // 2.
         self.window = UIWindow(windowScene: windowScene)
         // 3.
-        let navigationController = UINavigationController(rootViewController: ViewController_TMDBAPI())
+        let navigationController = UINavigationController(rootViewController: CarrotViewController())
         self.window?.rootViewController = navigationController
         // 4.
         self.window?.makeKeyAndVisible()
