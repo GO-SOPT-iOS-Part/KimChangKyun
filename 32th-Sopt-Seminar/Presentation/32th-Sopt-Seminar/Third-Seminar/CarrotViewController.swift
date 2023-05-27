@@ -9,6 +9,8 @@ import UIKit
 
 class CarrotViewController: UIViewController {
     
+    private let carrotNavigationView = CarrotNavigationView()
+    
     private let tableView = UITableView()
     
     private let dummy = Carrot.dummy()
@@ -38,7 +40,12 @@ private extension CarrotViewController {
     
     func setLayout() {
         
-        view.addSubview(tableView)
+        view.addSubviews(carrotNavigationView, tableView)
+        
+        carrotNavigationView.snp.makeConstraints {
+            $0.top.equalToSuperview().offset(44)
+            $0.horizontalEdges.equalTo(view.safeAreaLayoutGuide)
+        }
         
         tableView.snp.makeConstraints {
             $0.top.equalTo(view.safeAreaLayoutGuide)

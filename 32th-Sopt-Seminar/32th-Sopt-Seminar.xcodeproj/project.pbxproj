@@ -55,6 +55,8 @@
 		DF47026B2A21D8D100A71214 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DF47026A2A21D8D100A71214 /* RealmSwift */; };
 		DF47026D2A21DCC400A71214 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF47026C2A21DCC400A71214 /* TabBarController.swift */; };
 		DF47026F2A21DEFE00A71214 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF47026E2A21DEFE00A71214 /* FavoriteViewController.swift */; };
+		DF4702712A21E15A00A71214 /* CarrotNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4702702A21E15A00A71214 /* CarrotNavigationView.swift */; };
+		DF4702732A21E1A500A71214 /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4702722A21E1A500A71214 /* UIStackView.swift */; };
 		DF93B64029E133E400A1CBD0 /* FirstViewController_DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93B63F29E133E400A1CBD0 /* FirstViewController_DelegatePattern.swift */; };
 		DF93B64229E1344F00A1CBD0 /* SecondViewController_DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93B64129E1344F00A1CBD0 /* SecondViewController_DelegatePattern.swift */; };
 		DF93B64429E1386600A1CBD0 /* FirstViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93B64329E1386600A1CBD0 /* FirstViewController_Closure.swift */; };
@@ -120,6 +122,8 @@
 		DF18419A2A0E831A001A466A /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
 		DF47026C2A21DCC400A71214 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		DF47026E2A21DEFE00A71214 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		DF4702702A21E15A00A71214 /* CarrotNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotNavigationView.swift; sourceTree = "<group>"; };
+		DF4702722A21E1A500A71214 /* UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
 		DF93B63F29E133E400A1CBD0 /* FirstViewController_DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController_DelegatePattern.swift; sourceTree = "<group>"; };
 		DF93B64129E1344F00A1CBD0 /* SecondViewController_DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController_DelegatePattern.swift; sourceTree = "<group>"; };
 		DF93B64329E1386600A1CBD0 /* FirstViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController_Closure.swift; sourceTree = "<group>"; };
@@ -165,6 +169,7 @@
 				DF18412C29F3B744001A466A /* CarrotTableViewCell.swift */,
 				DF47026C2A21DCC400A71214 /* TabBarController.swift */,
 				DF47026E2A21DEFE00A71214 /* FavoriteViewController.swift */,
+				DF4702702A21E15A00A71214 /* CarrotNavigationView.swift */,
 			);
 			path = "Third-Seminar";
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 				DF18416B2A052195001A466A /* UITableView+.swift */,
 				DF18416D2A052235001A466A /* NSObject+.swift */,
 				DF18417A2A052FFD001A466A /* UILabel+.swift */,
+				DF4702722A21E1A500A71214 /* UIStackView.swift */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -522,6 +528,7 @@
 				DF1841762A052D37001A466A /* MyPassView.swift in Sources */,
 				DF1841672A04FCFE001A466A /* UINavigationItem+.swift in Sources */,
 				DF18416C2A052195001A466A /* UITableView+.swift in Sources */,
+				DF4702732A21E1A500A71214 /* UIStackView.swift in Sources */,
 				DF18418F2A0E00AA001A466A /* ViewController_WeatherAPI.swift in Sources */,
 				DF1841932A0E6C08001A466A /* MovieInformationService.swift in Sources */,
 				DF1841872A0628F2001A466A /* ViewController_FourthSeminar.swift in Sources */,
@@ -540,6 +547,7 @@
 				DF93B64429E1386600A1CBD0 /* FirstViewController_Closure.swift in Sources */,
 				DF1841742A052C83001A466A /* MyProfileView.swift in Sources */,
 				DF18416E2A052235001A466A /* NSObject+.swift in Sources */,
+				DF4702712A21E15A00A71214 /* CarrotNavigationView.swift in Sources */,
 				DF18415D2A043575001A466A /* MyPageViewController.swift in Sources */,
 				DF47026F2A21DEFE00A71214 /* FavoriteViewController.swift in Sources */,
 				DF18418B2A0DF337001A466A /* Weathers.swift in Sources */,
