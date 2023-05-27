@@ -53,6 +53,8 @@
 		DF18419B2A0E831A001A466A /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF18419A2A0E831A001A466A /* ImageCacheManager.swift */; };
 		DF4702692A21D8D100A71214 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = DF4702682A21D8D100A71214 /* Realm */; };
 		DF47026B2A21D8D100A71214 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DF47026A2A21D8D100A71214 /* RealmSwift */; };
+		DF47026D2A21DCC400A71214 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF47026C2A21DCC400A71214 /* TabBarController.swift */; };
+		DF47026F2A21DEFE00A71214 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF47026E2A21DEFE00A71214 /* FavoriteViewController.swift */; };
 		DF93B64029E133E400A1CBD0 /* FirstViewController_DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93B63F29E133E400A1CBD0 /* FirstViewController_DelegatePattern.swift */; };
 		DF93B64229E1344F00A1CBD0 /* SecondViewController_DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93B64129E1344F00A1CBD0 /* SecondViewController_DelegatePattern.swift */; };
 		DF93B64429E1386600A1CBD0 /* FirstViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93B64329E1386600A1CBD0 /* FirstViewController_Closure.swift */; };
@@ -116,6 +118,8 @@
 		DF1841962A0E7A17001A466A /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		DF1841982A0E8026001A466A /* MovieDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataModel.swift; sourceTree = "<group>"; };
 		DF18419A2A0E831A001A466A /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
+		DF47026C2A21DCC400A71214 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		DF47026E2A21DEFE00A71214 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		DF93B63F29E133E400A1CBD0 /* FirstViewController_DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController_DelegatePattern.swift; sourceTree = "<group>"; };
 		DF93B64129E1344F00A1CBD0 /* SecondViewController_DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController_DelegatePattern.swift; sourceTree = "<group>"; };
 		DF93B64329E1386600A1CBD0 /* FirstViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController_Closure.swift; sourceTree = "<group>"; };
@@ -159,6 +163,8 @@
 				DF18414B29FF9394001A466A /* v.swift */,
 				DF18412A29F3B549001A466A /* CarrotViewController.swift */,
 				DF18412C29F3B744001A466A /* CarrotTableViewCell.swift */,
+				DF47026C2A21DCC400A71214 /* TabBarController.swift */,
+				DF47026E2A21DEFE00A71214 /* FavoriteViewController.swift */,
 			);
 			path = "Third-Seminar";
 			sourceTree = "<group>";
@@ -494,6 +500,7 @@
 				DF18414C29FF9394001A466A /* v.swift in Sources */,
 				DF93B65829E1532500A1CBD0 /* SecondViewController_Practice1.swift in Sources */,
 				DF18412729F3AC01001A466A /* SecondViewController_ThirdSeminar.swift in Sources */,
+				DF47026D2A21DCC400A71214 /* TabBarController.swift in Sources */,
 				DF18417B2A052FFD001A466A /* UILabel+.swift in Sources */,
 				DF18414A29FA6BFA001A466A /* Image.swift in Sources */,
 				DF18412D29F3B744001A466A /* CarrotTableViewCell.swift in Sources */,
@@ -534,6 +541,7 @@
 				DF1841742A052C83001A466A /* MyProfileView.swift in Sources */,
 				DF18416E2A052235001A466A /* NSObject+.swift in Sources */,
 				DF18415D2A043575001A466A /* MyPageViewController.swift in Sources */,
+				DF47026F2A21DEFE00A71214 /* FavoriteViewController.swift in Sources */,
 				DF18418B2A0DF337001A466A /* Weathers.swift in Sources */,
 				DFA4A02F29D8105400BFB46A /* SecondViewController_1st_Seminar.swift in Sources */,
 				DF1841892A062969001A466A /* SignUpResponse.swift in Sources */,
