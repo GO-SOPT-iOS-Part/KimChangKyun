@@ -35,4 +35,10 @@ extension UIImage {
     public static let defaultMapIcon = UIImage(named: "defaultMap")!
     public static let defaultChatIcon = UIImage(named: "defaultChat")!
     public static let defaultMyIcon = UIImage(named: "defaultMy")!
+    
+    public static let homeListIcon = UIImage(named: "home_ic_list")
+    public static let homeSearchIcon = UIImage(named: "home_ic_search")
+    public static let homeMenuIcon = UIImage(named: "home_ic_menu")
+    public static let homeBellIcon = UIImage(named: "home_ic_bell")
+    public static let homeDownIcon = UIImage(named: "home_ic_down")
 }
