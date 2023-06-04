@@ -1,11 +1,12 @@
-// This file was generated from JSON Schema using quicktype, do not modify it directly.
-// To parse the JSON, add this file to your project and do:
 //
-//   let movieInformation = try? JSONDecoder().decode(MovieInformation.self, from: jsonData)
+//  MovieInformation.swift
+//  32th-Sopt-Seminar
+//
+//  Created by kyun on 2023/05/12.
+//
 
 import Foundation
 
-// MARK: - MovieInformation
 struct MovieInformation: Codable {
     let page: Int
     let results: [Result]
@@ -18,7 +19,6 @@ struct MovieInformation: Codable {
     }
 }
 
-// MARK: - Result
 struct Result: Codable {
     let adult: Bool
     let backdropPath: String?
